@@ -1,4 +1,4 @@
-# 🔍 Semantic Search Engine — Powered by Endee Vector Database
+#  Semantic Search Engine — Powered by Endee Vector Database
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -9,7 +9,7 @@ A production-ready **Semantic Search Engine** built on the [Endee Vector Databas
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Traditional search systems fail when the user phrases a query differently from how documents are written. Semantic search solves this by:
 
@@ -21,7 +21,7 @@ This project demonstrates a full end-to-end pipeline from raw text ingestion to 
 
 ---
 
-## 🏗️ System Design
+##  System Design
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
@@ -87,7 +87,7 @@ This project demonstrates a full end-to-end pipeline from raw text ingestion to 
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ### Prerequisites
 
@@ -123,7 +123,7 @@ curl http://localhost:8080/api/v1/health
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Demo mode (quickest start)
 
@@ -173,7 +173,7 @@ python main.py search --category "AI/ML"
 
 ---
 
-## 🔬 How Semantic Search Works
+## How Semantic Search Works
 
 ### Step 1 — Embedding (offline, during indexing)
 
@@ -195,7 +195,7 @@ Cosine similarity measures the angle between vectors regardless of their magnitu
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pytest tests/ -v
@@ -212,7 +212,7 @@ tests/test_search_engine.py::TestSemanticSearchEngine::test_search_...       PAS
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 semantic-search-endee/
@@ -235,7 +235,7 @@ semantic-search-endee/
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 All settings can be overridden with environment variables:
 
@@ -249,7 +249,7 @@ All settings can be overridden with environment variables:
 
 ---
 
-## 📊 Model Choice: all-MiniLM-L6-v2
+##  Model Choice: all-MiniLM-L6-v2
 
 | Property | Value |
 |---|---|
@@ -263,7 +263,7 @@ This model offers an excellent **quality-to-speed trade-off**, making it ideal f
 
 ---
 
-## 🔮 Potential Extensions
+##  Potential Extensions
 
 - **Hybrid Search** — combine dense (semantic) + sparse (BM25/TF-IDF) retrieval using Endee's sparse vector support.
 - **RAG Pipeline** — plug retrieved results into an LLM (Claude, GPT-4, Llama) for question-answering.
@@ -273,7 +273,7 @@ This model offers an excellent **quality-to-speed trade-off**, making it ideal f
 
 ---
 
-## 🤝 Acknowledgements
+##  Acknowledgements
 
 - [Endee Vector Database](https://endee.io) — high-performance open-source vector DB.
 - [Sentence Transformers](https://www.sbert.net) — `all-MiniLM-L6-v2` embedding model.
