@@ -16,8 +16,8 @@ from rich.panel import Panel
 from rich.table import Table
 from rich import print as rprint
 
-from src.search_engine import SemanticSearchEngine
-from src.data_loader import load_sample_documents, load_from_json, load_from_csv
+from search_engine import SemanticSearchEngine
+from data_loader import load_sample_documents, load_from_json, load_from_csv
 from config import Config
 
 logging.basicConfig(
