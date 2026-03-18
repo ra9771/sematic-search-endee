@@ -9,7 +9,7 @@ import json
 import logging
 from pathlib import Path
 
-from src.search_engine import Document
+from search_engine import Document
 
 logger = logging.getLogger(__name__)
 
