@@ -8,8 +8,8 @@ import logging
 from dataclasses import dataclass, field
 from typing import Optional
 
-from src.endee_client import EndeeClient
-from src.embeddings import EmbeddingGenerator, EMBEDDING_DIM
+from endee_client import EndeeClient
+from embeddings import EmbeddingGenerator, EMBEDDING_DIM
 
 logger = logging.getLogger(__name__)
 
