@@ -281,6 +281,6 @@ This model offers an excellent **quality-to-speed trade-off**, making it ideal f
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — see [LICENSE](LICENSE) for details.
