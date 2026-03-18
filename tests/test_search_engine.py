@@ -6,9 +6,9 @@ Mocks both the Endee client and embedding generator for fast, offline testing.
 import pytest
 from unittest.mock import MagicMock, patch
 
-from src.search_engine import SemanticSearchEngine, Document, SearchResult
-from src.data_loader import load_sample_documents, load_from_json
-from src.embeddings import EmbeddingGenerator
+from search_engine import SemanticSearchEngine, Document, SearchResult
+from data_loader import load_sample_documents, load_from_json
+from embeddings import EmbeddingGenerator
 
 
 # ── Fixtures ──────────────────────────────────────────────────────────────────
