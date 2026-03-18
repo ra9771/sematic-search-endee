@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Introduction to Neural Networks",
+    "text": "Neural networks are computing systems loosely modeled on the biological neural networks that make up animal brains. They consist of layers of interconnected nodes that process information using connectionist approaches to computation.",
+    "category": "AI/ML",
+    "url": "https://example.com/neural-networks"
+  },
+  {
+    "title": "SQL vs NoSQL Databases",
+    "text": "SQL databases use structured query language and are table-based, making them great for complex queries. NoSQL databases are document-based, key-value pairs, or graph-based, offering flexibility and horizontal scalability for unstructured data.",
+    "category": "Databases",
+    "url": "https://example.com/sql-vs-nosql"
+  },
+  {
+    "title": "Cloud Computing Fundamentals",
+    "text": "Cloud computing delivers computing services including servers, storage, databases, networking, software, analytics and intelligence over the internet. The three main types are IaaS, PaaS, and SaaS.",
+    "category": "Cloud",
+    "url": "https://example.com/cloud-computing"
+  }
+]
