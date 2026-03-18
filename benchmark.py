@@ -16,11 +16,11 @@ import logging
 from rich.console import Console
 from rich.panel import Panel
 
-from src.data_loader import load_sample_documents
-from src.tfidf_baseline import TFIDFSearchEngine
-from src.query_expansion import QueryExpander
-from src.evaluation import SearchEvaluator, QueryResult, MetricReport
-from src.search_engine import SemanticSearchEngine
+from data_loader import load_sample_documents
+from tfidf_baseline import TFIDFSearchEngine
+from query_expansion import QueryExpander
+from evaluation import SearchEvaluator, QueryResult, MetricReport
+from search_engine import SemanticSearchEngine
 from config import Config
 
 logging.basicConfig(level=logging.WARNING)   # Suppress info during benchmark
